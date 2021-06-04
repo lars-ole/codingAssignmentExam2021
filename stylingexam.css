@@ -1,0 +1,36 @@
+body {
+  margin-left: 2em;
+}
+
+label {
+  margin-right: 2em;
+  display: inline-block;
+  width: 18em;
+}
+h1 {
+    color: blue
+
+}
+
+.findList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.names {
+  list-style-type: none;
+  padding: 4;
+  margin: 0;
+
+}
+
+.names .age {
+  display: inline-block;
+  width: 20em;
+}
+
+.names .name {
+  display: inline-block;
+  width: 30em;
+}

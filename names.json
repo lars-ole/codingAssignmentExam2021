@@ -1,0 +1,122 @@
+[
+    {
+        "name": "John",
+        "age": 23,
+        "city": "Seattle",
+        "relation": "family"
+    },
+    {
+        "name": "Jose",
+        "age": 45,
+        "city": "Oslo",
+        "relation": "family"
+    },
+    {
+        "name": "Emma",
+        "age": 20,
+        "city": "Oslo",
+        "relation": "family"
+    },
+    {
+        "name": "Pedro",
+        "age": 25,
+        "city": "Oslo",
+        "relation": "family"
+    },
+    {
+        "name": "Stephen",
+        "age": 33,
+        "city": "Oslo",
+        "relation": "family"
+    },
+    {
+        "name": "Josephine",
+        "age": 22,
+        "city": "New York",
+        "relation": "family"
+    },
+    {
+        "name": "Eli",
+        "age": 30,
+        "city": "New York",
+        "relation": "family"
+    },
+    {
+        "name": "Kimberly",
+        "age": "19",
+        "city": "New York",
+        "relation": "family"
+    },
+    {
+        "name": "Jan",
+        "age": 75,
+        "city": "Seattle",
+        "relation": "family"
+    },
+    {
+        "name": "Kari",
+        "age": 72,
+        "city": "Seattle",
+        "relation": "family"
+    },
+    {
+        "name": "Jenny",
+        "age": 29,
+        "city": "Tromsø",
+        "relation": "friend"
+    },
+    {
+        "name": "Luke",
+        "age": 34,
+        "city": "Tromsø",
+        "relation": "friend"
+    },
+    {
+        "name": "Hans",
+        "age": 23,
+        "city": "Berlin",
+        "relation": "friend"
+    },
+    {
+        "name": "Heinrich",
+        "age": 37,
+        "city": "Berlin",
+        "relation": "friend"
+    },
+    {
+        "name": "Leo",
+        "age": 45,
+        "city": "Berlin",
+        "relation": "friend"
+    },
+    {
+        "name": "Ivo",
+        "age": 50,
+        "city": "Lima",
+        "relation": "friend"
+    },
+    {
+        "name": "Cristina",
+        "age": 48,
+        "city": "Lima",
+        "relation": "friend"
+    },
+    {
+        "name": "Roger",
+        "age": 44,
+        "city": "Toronto",
+        "relation": "friend"
+    },
+    {
+        "name": "Kalvin",
+        "age": 45,
+        "city": "Toronto",
+        "relation": "friend"
+    },
+    {
+        "name": "Matthew",
+        "age": 22,
+        "city": "Copenhagen",
+        "relation": "friend"
+    }
+]

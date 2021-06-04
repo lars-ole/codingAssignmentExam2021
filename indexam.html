@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <script defer src="showFriends.js"></script>
+    <link rel="stylesheet" href="stylingexam.css" />
+</head>
+
+<body>
+    <h1>My webpage...</h1>
+    <p>Thank you for visiting my webpage!</p>
+    <p> My name is Lars, a 28 year old geomatics-student. </p>
+    <p> Here is a picture of some of the equipment we use as geomatics students at NTNU</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Survey_instruments-2.png/800px-Survey_instruments-2.png"
+        alt="geomatics" width="500" height="333">
+    <div class="findList">
+        <div>
+            <table> <label for="all">Here is a table of some of my friends and family, their age, where they live, and
+                    their relation to me</label>
+
+
+        </div>
+
+    </div>
+    <p>
+    <ul class="name"></ul>
+    </p>
+
+
+
+
+</body>
+
+
+<body onload="displayProfile()">
+
+    <h1> Please leave your contact information </h1>
+
+    <form name="Login">
+        First name<br>
+        <input type="text" name="fName" id="FN"> <br>
+        Last name <br>
+        <input type="text" name="lName" id="LN"><br>
+
+        Age <br>
+        <input type="text" name="ageField" id="age"> <br>
+
+        Email <br>
+        <input type="text" name="email" id="e"><br>
+
+        Number <br>
+        <input type="number" name="number" id="num"><br>
+
+        Adress <br>
+        <input type="text" name="Adress" id="adr"><br>
+
+        City <br>
+        <input type="text" name="City" id="cit"><br>
+
+    </form>
+    <br>
+    <button onclick="updateProfile()">Enter</button>
+
+    <script type="text/javascript">
+
+        class Profile {
+            setProfile(n, a, e, t, f, c, d) {
+                this._name = n;
+                this._lname = f;
+                this._telephone = t;
+                this._age = a;
+                this._email = e;
+                this._city = c;
+                this._adress = d;
+
+                this.saveProfile();
+            }
+
+            getProfile() {
+                return JSON.parse(localStorage.getItem('Profile'));
+            }
+
+            saveProfile() {
+                localStorage.setItem('Profile', JSON.stringify(this));
+            }
+        }
+
+</html >
